@@ -1,15 +1,15 @@
 {
-  "name": "coffeetape",
-  "version": "1.0.1",
-  "description": "Run tape tests written in coffeescript",
+  "name": "cjsxtape",
+  "version": "0.0.0",
+  "description": "Run tape tests written in CJSX",
   "main": "index.js",
-  "bin": "./bin/coffeetape",
+  "bin": "./bin/cjsxtape",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hflw/coffeetape.git"
+    "url": "https://github.com/chrismendis/cjsxtape.git"
   },
   "keywords": [
     "coffeescript",
@@ -20,14 +20,14 @@
     "tests",
     "test"
   ],
-  "author": "HFLW",
+  "author": "chrismendis",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hflw/coffeetape/issues"
+    "url": "https://github.com/chrismendis/cjsxtape/issues"
   },
-  "homepage": "https://github.com/hflw/coffeetape",
+  "homepage": "https://github.com/chrismendis/cjsxtape",
   "dependencies": {
-    "coffee-script": "^1.9.1",
-    "tape": "^3.5.0"
+    "coffee-react": "4.1.0",
+    "tape": "4.5.1"
   }
 }
